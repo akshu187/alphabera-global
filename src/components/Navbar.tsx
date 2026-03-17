@@ -79,6 +79,9 @@ export default function Navbar() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white focus:outline-none transition-colors"
+              aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isOpen}
+              aria-controls="mobile-navigation"
             >
               {isOpen ? (
                 <X className="block h-6 w-6" />
@@ -96,6 +99,7 @@ export default function Navbar() {
         animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? "auto" : 0 }}
         transition={{ duration: 0.3 }}
         className="md:hidden overflow-hidden"
+        id="mobile-navigation"
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/95 dark:bg-black/95 backdrop-blur-md">
           {navItems.map((item) => (

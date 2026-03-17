@@ -99,6 +99,8 @@ Message: ${formData.message}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="rounded-full p-2 transition-colors hover:bg-gray-100 dark:hover:bg-white/10"
+                aria-label="Close contact form"
+                title="Close contact form"
               >
                 <X className="h-5 w-5 text-gray-600 dark:text-gray-400" />
               </motion.button>
