@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://alphabera.global/sitemap.xml
+Sitemap: https://moonlit-sopapillas-029477.netlify.app/sitemap.xml
