@@ -17,8 +17,8 @@ export default function HomePage() {
   return (
     <>
       <Seo
-        title="Alphabera Global | Digital Marketing, SEO, Websites, and AI Automation"
-        description="Alphabera Global is a digital marketing agency serving Roorkee, Uttarakhand and nearby areas with SEO, paid advertising, website development, branding, and AI automation."
+        title="Alphabera Global | SEO, Websites and Digital Marketing"
+        description="Alphabera Global helps businesses in Roorkee, Dehradun and Uttarakhand grow through SEO, websites, paid ads and branding."
         path="/"
         schema={[getLocalBusinessSchema(), getSiteSchema()]}
       />

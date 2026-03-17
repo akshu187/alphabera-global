@@ -10,7 +10,7 @@ export default function SocialMediaMarketingRoorkeePage() {
     <>
       <Seo
         title="Social Media Marketing in Roorkee | Alphabera Global"
-        description="Need social media marketing in Roorkee? Alphabera Global helps businesses improve content consistency, brand visibility, and lead generation across social platforms."
+        description="Need social media marketing in Roorkee? Alphabera Global helps businesses improve content consistency, brand visibility and lead generation."
         path="/social-media-marketing-roorkee"
         schema={{
           "@graph": [

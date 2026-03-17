@@ -72,8 +72,17 @@ export default function Features() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-bold mb-6"
           >
-            AI Powered <span className="text-gradient text-gradient-animated">Digital Solutions</span>
+            AI Powered Digital Solutions
           </motion.h2>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.04 }}
+            className="text-3xl md:text-5xl font-bold -mt-3 mb-6"
+          >
+            <span className="text-gradient text-gradient-animated">Digital Solutions</span>
+          </motion.div>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

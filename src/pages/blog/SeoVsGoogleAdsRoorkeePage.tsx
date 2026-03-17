@@ -9,7 +9,7 @@ export default function SeoVsGoogleAdsRoorkeePage() {
   return (
     <>
       <Seo
-        title="SEO vs Google Ads for Small Businesses in Roorkee | Alphabera Global"
+        title="SEO vs Google Ads in Roorkee | Alphabera Global"
         description="A practical comparison of SEO vs Google Ads for small businesses in Roorkee, including when to use each and how they work together."
         path="/blog/seo-vs-google-ads-roorkee"
         schema={{

@@ -9,7 +9,7 @@ export default function MarketingForCoachingInstitutesRoorkeePage() {
   return (
     <>
       <Seo
-        title="Digital Marketing for Coaching Institutes in Roorkee | Alphabera Global"
+        title="Marketing for Coaching Institutes in Roorkee"
         description="Alphabera Global helps coaching institutes in Roorkee with admissions-focused websites, SEO, ads, and lead generation systems."
         path="/marketing-for-coaching-institutes-roorkee"
         schema={{

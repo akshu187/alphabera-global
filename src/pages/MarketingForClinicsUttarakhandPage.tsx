@@ -10,7 +10,7 @@ export default function MarketingForClinicsUttarakhandPage() {
     <>
       <Seo
         title="Digital Marketing for Clinics in Uttarakhand | Alphabera Global"
-        description="Alphabera Global helps clinics in Uttarakhand improve local search visibility, patient trust, and enquiry flow through compliant, helpful digital marketing."
+        description="Alphabera Global helps clinics in Uttarakhand improve visibility, patient trust and enquiry flow through compliant digital marketing."
         path="/marketing-for-clinics-uttarakhand"
         schema={{
           "@graph": [

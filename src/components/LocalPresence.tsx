@@ -46,9 +46,17 @@ export default function LocalPresence() {
             viewport={{ once: true }}
             className="text-3xl font-bold tracking-tight md:text-5xl"
           >
-            Digital marketing agency support for
-            <span className="block text-gradient text-gradient-animated">Roorkee, Dehradun and Uttarakhand businesses</span>
+            Digital marketing agency support for Roorkee, Dehradun and Uttarakhand businesses
           </motion.h2>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.04 }}
+            className="text-3xl font-bold tracking-tight md:text-5xl"
+          >
+            <span className="text-gradient text-gradient-animated">Roorkee, Dehradun and Uttarakhand businesses</span>
+          </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

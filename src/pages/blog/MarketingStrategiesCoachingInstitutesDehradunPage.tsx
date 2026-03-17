@@ -9,8 +9,8 @@ export default function MarketingStrategiesCoachingInstitutesDehradunPage() {
   return (
     <>
       <Seo
-        title="Best Marketing Strategies for Coaching Institutes in Dehradun | Alphabera Global"
-        description="A practical guide to marketing strategies for coaching institutes in Dehradun, including landing pages, trust signals, local SEO, and admissions campaigns."
+        title="Marketing Strategies for Coaching Institutes in Dehradun"
+        description="A practical guide to marketing coaching institutes in Dehradun with landing pages, trust signals, local SEO and admissions campaigns."
         path="/blog/marketing-strategies-coaching-institutes-dehradun"
         schema={{
           "@graph": [

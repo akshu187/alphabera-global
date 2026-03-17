@@ -88,9 +88,16 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl font-bold leading-[0.96] tracking-tight text-white md:text-7xl lg:text-[5.5rem]"
           >
-            We build
-            <span className="block text-gradient text-gradient-animated">brands that grow</span>
+            We build brands that grow
           </motion.h1>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.14 }}
+            className="mt-2 text-5xl font-bold leading-[0.96] tracking-tight md:text-7xl lg:text-[5.5rem]"
+          >
+            <span className="text-gradient text-gradient-animated">brands that grow</span>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}

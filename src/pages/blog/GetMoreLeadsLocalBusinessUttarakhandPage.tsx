@@ -9,7 +9,7 @@ export default function GetMoreLeadsLocalBusinessUttarakhandPage() {
   return (
     <>
       <Seo
-        title="How to Get More Leads for Local Business in Uttarakhand | Alphabera Global"
+        title="Get More Local Leads in Uttarakhand | Alphabera Global"
         description="A practical guide to getting more leads for local businesses in Uttarakhand using SEO, websites, trust signals, and paid support."
         path="/blog/get-more-leads-local-business-uttarakhand"
         schema={{
