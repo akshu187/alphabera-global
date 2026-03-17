@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="favBg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#b13a52" />
+      <stop offset="55%" stop-color="#7b1830" />
+      <stop offset="100%" stop-color="#34101d" />
+    </radialGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e8b0" />
+      <stop offset="45%" stop-color="#d6a64d" />
+      <stop offset="100%" stop-color="#8c5b17" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="#2a2d36" />
+  <circle cx="32" cy="32" r="28" fill="url(#favBg)" />
+  <path d="M32 12 L22 27 H27 L32 19 L37 27 H42 Z" fill="url(#favGold)" />
+  <path d="M32 17 L26.5 25.5 H29.5 L32 21.5 L34.5 25.5 H37.5 Z" fill="#f5ebc8" />
+  <rect x="14" y="27" width="14" height="1.4" rx="0.7" fill="url(#favGold)" />
+  <rect x="36" y="27" width="14" height="1.4" rx="0.7" fill="url(#favGold)" />
+  <text
+    x="32"
+    y="38"
+    text-anchor="middle"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.6"
+    font-family="Inter, Arial, sans-serif"
+    fill="#f8f4ef"
+  >
+    A
+  </text>
+</svg>
