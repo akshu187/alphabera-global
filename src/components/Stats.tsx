@@ -3,10 +3,10 @@ import AnimatedCounter from "../utils/AnimatedCounter";
 
 export default function Stats() {
   const stats = [
-    { label: "Ad Spend Managed", value: 10, suffix: "M+", duration: 2 },
-    { label: "Average ROI", value: 350, suffix: "%", duration: 2 },
-    { label: "Leads Generated", value: 2.5, suffix: "M+", duration: 2, isFloat: true },
-    { label: "Active Campaigns", value: 85, suffix: "+", duration: 2 },
+    { label: "Ad Spend Managed", value: 100, suffix: "K+", duration: 2 },
+    { label: "Average ROI", value: 220, suffix: "%", duration: 2 },
+    { label: "Leads Generated", value: 150, suffix: "+", duration: 2 },
+    { label: "Active Campaigns", value: 20, suffix: "+", duration: 2 },
   ];
 
   return (
