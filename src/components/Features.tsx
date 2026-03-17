@@ -81,7 +81,7 @@ export default function Features() {
             transition={{ delay: 0.04 }}
             className="text-3xl md:text-5xl font-bold -mt-3 mb-6"
           >
-            <span className="text-gradient text-gradient-animated">Digital Solutions</span>
+            <span className="text-gradient text-gradient-animated">built for leads, visibility and growth</span>
           </motion.div>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

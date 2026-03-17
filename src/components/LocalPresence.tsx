@@ -55,7 +55,7 @@ export default function LocalPresence() {
             transition={{ delay: 0.04 }}
             className="text-3xl font-bold tracking-tight md:text-5xl"
           >
-            <span className="text-gradient text-gradient-animated">Roorkee, Dehradun and Uttarakhand businesses</span>
+            <span className="text-gradient text-gradient-animated">for high-intent local searches</span>
           </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

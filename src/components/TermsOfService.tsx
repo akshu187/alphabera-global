@@ -92,7 +92,7 @@ export default function TermsOfService() {
             Clear terms for every client partnership
           </h1>
           <div className="mt-2 text-4xl font-bold tracking-tight md:text-6xl">
-            <span className="text-gradient text-gradient-animated">client partnership</span>
+            <span className="text-gradient text-gradient-animated">clear expectations and protection</span>
           </div>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-300">
             Last Updated: March 17, 2026

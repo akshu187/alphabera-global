@@ -94,7 +94,7 @@ export default function PrivacyPolicy() {
             Privacy that supports trusted growth
           </h1>
           <div className="mt-2 text-4xl font-bold tracking-tight md:text-6xl">
-            <span className="text-gradient text-gradient-animated">trusted growth</span>
+            <span className="text-gradient text-gradient-animated">clear, transparent data practices</span>
           </div>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-300">
             Last Updated: March 17, 2026

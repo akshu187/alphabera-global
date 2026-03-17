@@ -96,7 +96,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.14 }}
             className="mt-2 text-5xl font-bold leading-[0.96] tracking-tight md:text-7xl lg:text-[5.5rem]"
           >
-            <span className="text-gradient text-gradient-animated">brands that grow</span>
+            <span className="text-gradient text-gradient-animated">with sharp digital systems</span>
           </motion.div>
 
           <motion.p

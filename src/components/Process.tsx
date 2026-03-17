@@ -56,7 +56,7 @@ export default function Process() {
             transition={{ delay: 0.04 }}
             className="text-3xl md:text-5xl font-bold -mt-3 mb-6"
           >
-            <span className="text-gradient text-gradient-animated">Framework</span>
+            <span className="text-gradient text-gradient-animated">from audit to scale</span>
           </motion.div>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
