@@ -15,6 +15,9 @@ const TermsOfServicePage = lazy(() => import("./pages/TermsOfServicePage"));
 const DigitalMarketingAgencyRoorkeePage = lazy(() => import("./pages/DigitalMarketingAgencyRoorkeePage"));
 const DigitalMarketingAgencyDehradunPage = lazy(() => import("./pages/DigitalMarketingAgencyDehradunPage"));
 const DigitalMarketingAgencyUttarakhandPage = lazy(() => import("./pages/DigitalMarketingAgencyUttarakhandPage"));
+const BestDigitalMarketingAgencyUttarakhandPage = lazy(
+  () => import("./pages/BestDigitalMarketingAgencyUttarakhandPage"),
+);
 const SeoServicesRoorkeePage = lazy(() => import("./pages/SeoServicesRoorkeePage"));
 const WebsiteDevelopmentDehradunPage = lazy(() => import("./pages/WebsiteDevelopmentDehradunPage"));
 const SocialMediaMarketingRoorkeePage = lazy(() => import("./pages/SocialMediaMarketingRoorkeePage"));
@@ -44,6 +47,7 @@ const routes: Record<string, RouteComponent> = {
   "/digital-marketing-agency-roorkee": DigitalMarketingAgencyRoorkeePage,
   "/digital-marketing-agency-dehradun": DigitalMarketingAgencyDehradunPage,
   "/digital-marketing-agency-uttarakhand": DigitalMarketingAgencyUttarakhandPage,
+  "/best-digital-marketing-agency-uttarakhand": BestDigitalMarketingAgencyUttarakhandPage,
   "/seo-services-roorkee": SeoServicesRoorkeePage,
   "/website-development-dehradun": WebsiteDevelopmentDehradunPage,
   "/social-media-marketing-roorkee": SocialMediaMarketingRoorkeePage,

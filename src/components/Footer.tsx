@@ -25,6 +25,7 @@ export default function Footer() {
     { label: "Roorkee Marketing", href: "/digital-marketing-agency-roorkee" },
     { label: "Dehradun Marketing", href: "/digital-marketing-agency-dehradun" },
     { label: "Uttarakhand Marketing", href: "/digital-marketing-agency-uttarakhand" },
+    { label: "Best Agency Uttarakhand", href: "/best-digital-marketing-agency-uttarakhand" },
     { label: "SEO Roorkee", href: "/seo-services-roorkee" },
     { label: "Website Dehradun", href: "/website-development-dehradun" },
     { label: "SMM Roorkee", href: "/social-media-marketing-roorkee" },
