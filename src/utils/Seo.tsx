@@ -42,10 +42,13 @@ export default function Seo({ title, description, path, image = "/logo.jpg", sch
     upsertMeta("property", "og:description", description);
     upsertMeta("property", "og:url", canonicalUrl);
     upsertMeta("property", "og:image", imageUrl);
+    upsertMeta("property", "og:site_name", "Alphabera Global");
     upsertMeta("name", "twitter:card", "summary_large_image");
+    upsertMeta("name", "twitter:site", "@alphaberaglobal");
     upsertMeta("name", "twitter:title", title);
     upsertMeta("name", "twitter:description", description);
     upsertMeta("name", "twitter:image", imageUrl);
+    upsertMeta("name", "twitter:image:alt", `${title} preview image`);
     upsertLink("canonical", canonicalUrl);
   }, [description, image, path, title]);
 

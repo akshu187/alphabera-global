@@ -38,14 +38,14 @@ export default function Stats() {
               className="p-6 rounded-2xl bg-white dark:bg-white/5 border border-brand-100 dark:border-white/10 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-white/10 dark:hover:bg-white/10 group cursor-pointer"
               whileHover={{ y: -10 }}
             >
-              <h4 className="text-4xl md:text-5xl font-bold text-brand-900 dark:text-white mb-2 font-display tracking-tight transition-colors duration-300 group-hover:text-brand-500">
+              <div className="text-4xl md:text-5xl font-bold text-brand-900 dark:text-white mb-2 font-display tracking-tight transition-colors duration-300 group-hover:text-brand-500">
                 <AnimatedCounter 
                   from={0} 
                   to={stat.value} 
                   duration={stat.duration} 
                   suffix={stat.suffix}
                 />
-              </h4>
+              </div>
               <p className="text-brand-600 dark:text-brand-300 font-medium text-sm uppercase tracking-wider transition-colors duration-300">
                 {stat.label}
               </p>

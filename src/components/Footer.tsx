@@ -48,6 +48,7 @@ export default function Footer() {
       />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <h2 className="sr-only">Footer navigation and company links</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <motion.div 
@@ -91,17 +92,29 @@ export default function Footer() {
                 </motion.a>
               ))}
             </div>
+            <p className="mt-4 text-sm text-gray-500 dark:text-gray-400">
+              Follow Alphabera Global on{" "}
+              <a
+                href="https://www.instagram.com/alphaberaglobal?igsh=MXN4M2tncWludm90Yw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-500 dark:text-brand-400 hover:underline"
+              >
+                Instagram
+              </a>
+              .
+            </p>
           </div>
           
           <div>
-            <motion.h4 
+            <motion.h3 
               className="text-gray-900 dark:text-white font-semibold mb-4 uppercase tracking-wider text-sm transition-colors duration-300"
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
               Services
-            </motion.h4>
+            </motion.h3>
             <ul className="space-y-3">
               {serviceLinks.map((service, i) => (
                 <motion.li
@@ -120,7 +133,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <motion.h4 
+            <motion.h3 
               className="text-gray-900 dark:text-white font-semibold mb-4 uppercase tracking-wider text-sm transition-colors duration-300"
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -128,7 +141,7 @@ export default function Footer() {
               transition={{ delay: 0.1 }}
             >
               Company
-            </motion.h4>
+            </motion.h3>
             <ul className="space-y-3">
               {companyLinks.map((item, i) => (
                 <motion.li

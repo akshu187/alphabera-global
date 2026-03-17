@@ -127,6 +127,23 @@ export default function Hero() {
               </div>
             ))}
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.42 }}
+            className="mt-6 flex flex-wrap items-center gap-4 text-sm text-gray-300"
+          >
+            <span>Follow our latest work:</span>
+            <a
+              href="https://www.instagram.com/alphaberaglobal?igsh=MXN4M2tncWludm90Yw=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-brand-300 transition-colors hover:text-brand-200"
+            >
+              Instagram
+            </a>
+          </motion.div>
         </div>
 
         <motion.div
@@ -195,6 +212,8 @@ export default function Hero() {
                 <motion.img
                   src="/logo.svg"
                   alt="Alphabera Global"
+                  width="228"
+                  height="228"
                   className="h-[228px] w-[228px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]"
                   animate={{ rotate: [0, 1.5, 0, -1.5, 0] }}
                   transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}

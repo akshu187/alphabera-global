@@ -29,6 +29,8 @@ export default function Navbar() {
               <img 
                 src="/logo.svg" 
                 alt="Alphabera Logo" 
+                width="56"
+                height="56"
                 className="w-full h-full object-contain"
               />
             </motion.a>

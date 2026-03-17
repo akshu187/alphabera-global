@@ -90,10 +90,10 @@ export default function PrivacyPolicy() {
             <Lock className="h-4 w-4" />
             <span>Privacy Policy</span>
           </div>
-          <h2 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
             Privacy that supports
             <span className="block text-gradient text-gradient-animated">trusted growth</span>
-          </h2>
+          </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-300">
             Last Updated: March 17, 2026
           </p>
